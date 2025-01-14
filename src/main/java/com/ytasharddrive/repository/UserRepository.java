@@ -1,4 +1,4 @@
-package com.ytasharddrive;
+package com.ytasharddrive.repository;
 
 import com.ytasharddrive.model.User;
 import java.util.Optional;
