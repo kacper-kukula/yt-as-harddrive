@@ -25,7 +25,8 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
-@Tag(name = "File Management", description = "Endpoints for uploading, downloading, and managing files")
+@Tag(name = "File Management",
+        description = "Endpoints for uploading, downloading, and managing files")
 @RestController
 @RequestMapping("/files")
 @RequiredArgsConstructor
