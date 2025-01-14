@@ -1,6 +1,6 @@
 package com.ytasharddrive.dto;
 
-import com.example.medrecordsapi.model.Role;
+import com.ytasharddrive.model.Role;
 
 public record UserResponseDto(
         String id,
