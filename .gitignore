@@ -31,3 +31,8 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Secrets ###
+/tokens
+.env
+/src/main/resources/client_secret.json

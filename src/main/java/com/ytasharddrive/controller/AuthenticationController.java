@@ -7,6 +7,7 @@ import com.ytasharddrive.dto.UserResponseDto;
 import com.ytasharddrive.exception.RegistrationException;
 import com.ytasharddrive.security.AuthenticationService;
 import com.ytasharddrive.service.UserService;
+import com.ytasharddrive.service.YouTubeService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
@@ -29,6 +30,7 @@ import org.springframework.web.bind.annotation.RestController;
 @Slf4j
 public class AuthenticationController {
 
+    private final YouTubeService youTubeService;
     private final UserService userService;
     private final AuthenticationService authenticationService;
 
